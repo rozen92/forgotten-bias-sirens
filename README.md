@@ -6,6 +6,8 @@ This repository contains  `siren_initialization_figures_notebook.ipynb`, which r
 all the figures and numerical values of the paper *The Forgotten Bias of SIRENs: A Theoretical
 Analysis of Sinusoidal Network Initialization*.
 
+It also runs an automatic campaign of numerical checks, grouped by section of the paper, that compares the theoretical formulas with closed forms and Monte Carlo simulations.
+
 
 ## Requirements
 
@@ -22,5 +24,5 @@ jupyter nbconvert --to notebook --execute siren_initialization_figures.ipynb
 ```
 
 or open the notebook and run all cells. A full run takes about 5 to 8 minutes on a laptop CPU.
-The figures are written as PDF files to `figs/`.
+The figures are written as PDF files to `figs/`, and the last cell reports the result of the automatic checks.
 
